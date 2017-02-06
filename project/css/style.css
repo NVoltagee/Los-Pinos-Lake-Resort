@@ -148,11 +148,6 @@ a:link {
   float: left;
 }
 
-.secondary-footer > p {
-  margin-top: 10px;
-}
-
-
 /* Layout Styles ------------------ */
 
 .primary-content, .secondary-content {
@@ -214,6 +209,10 @@ a:link {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.attractions > ol > li> a {
+  color: #2F3C1D;
 }
 
 /* Float Clearfix ------------------ */
