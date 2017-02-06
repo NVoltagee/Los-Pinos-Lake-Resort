@@ -102,6 +102,8 @@ a:link {
   font-weight: 200;
   border-bottom:2px solid;
   padding-bottom: 10px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
 }
 
 .line {
