@@ -79,7 +79,7 @@ section {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(47,60,29);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -134,10 +134,6 @@ a:link {
 	padding-bottom: 70px;
 }
 
-.primary-footer {
-  float: left;
-}
-
 #contact {
   width: 50%;
   height: 411px;
@@ -152,10 +148,8 @@ a:link {
   float: left;
 }
 
-.secondary-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+.secondary-footer > p {
+  margin-top: 10px;
 }
 
 
@@ -170,15 +164,19 @@ a:link {
 
 .arrow {
   width: 50px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
-#contact>li,#contact>p {
+#contact >li a, #contact > p {
   color: #fff;
   text-align: center;
   text-decoration: none;
 }
 
+#contact > ul {
+  padding: 0;
+  text-align: center;
+}
 /* Floated Columns ------------------ */
 
 #pagewrap {
