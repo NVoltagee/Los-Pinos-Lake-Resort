@@ -210,7 +210,7 @@ a:link {
   flex-direction: column;
 }
 
-.attractions > ol > li> a {
+.attractions > ol > li > a {
   color: #2F3C1D;
 }
 
@@ -270,6 +270,7 @@ a:link {
     float: none;
     width: 100%;
    }
+
    .secondary-footer {
       padding: 20px 0;
    }
