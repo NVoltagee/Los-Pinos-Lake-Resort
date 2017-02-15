@@ -129,7 +129,7 @@ a:link {
 }
 
 .secondary-content {
-  height: 790px;
+  /* height: 790px; */
 	padding-top: 80px;
 	padding-bottom: 70px;
 }
@@ -191,23 +191,23 @@ a:link {
 
 .resorts {
   padding: 5px 15px;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .rental {
   padding: 5px 15px;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .attractions {
   padding: 5px 0px;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .attractions > ol > li > a {
