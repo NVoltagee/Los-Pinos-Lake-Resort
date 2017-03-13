@@ -21,7 +21,8 @@ p {
   margin-bottom: 20px;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family:'Open Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -157,11 +158,6 @@ a:link {
   margin: auto;
 }
 
-.arrow {
-  width: 50px;
-  margin-top: 30px;
-}
-
 #contact > ul > li > a:link, #contact > p {
   color: #fff;
   text-align: center;
@@ -226,15 +222,20 @@ a:link {
 
 /* Media Queries -------------------- */
 
-@media (max-width: 1024px) {
+/* Tablet Size */
+
+@media (min-width: 768px) {
+
+
+}
+
+/* Desktop Size */
+
+@media (min-width: 1024px) { 
+  
   .primary-content,
   .secondary-content {
     width: 90%;
-  }
-
-  .wildlife {
-    padding: 10% 12%;
-    margin: 50px 0 20px;
   }
 
   .primary-content,
@@ -243,33 +244,31 @@ a:link {
     padding: 20px;
     border: none;
   }
-
-  .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;
+  
+  .main-header,
+  #top {
+    max-height: 565px;
+    padding: 80px 25px 0;
    }
-   
+
+   .arrow {
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+   }
+
    .title {
-      font-size: 1.3rem;
+      font-size: 2.3rem;
       border-top: none;
+   }
+
+   .intro {
+      /* font-size: 1rem; */
    }
 
    h1 {
       font-size: 5rem;
       line-height:1.1;
-   }
-
-   .arrow {
-      display: none;
-   }
-
-   .intro {
-      font-size: 1rem;
-   }
-
-   .rental, .tips {
-    float: none;
-    width: 100%;
    }
 
    .secondary-footer {
