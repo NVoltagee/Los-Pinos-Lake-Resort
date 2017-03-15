@@ -52,7 +52,7 @@ h3 {
 
 .arrow {
   width: 50px;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 0;
  }
 
@@ -91,8 +91,8 @@ a:link {
 /* Main Styles --------------------- */
 
 .main-header {
-  padding-top: 120px;
-  height: 925px;
+  padding-top: 80px;
+  height: 600px;
   background: linear-gradient(#4EB256, transparent 90%),
               linear-gradient(0deg, #769FB6, transparent),
               #fff url('../img/cover.jpg') no-repeat center;
@@ -102,7 +102,7 @@ a:link {
 
 .title {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: .065em;
   font-weight: 200;
   border-bottom: 2px solid;
@@ -113,12 +113,12 @@ a:link {
 
 .line {
   border-top: 2px solid;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .intro,
 .intro p {
-  font-size: 1.25em; /* 20px/16px */
+  font-size: 18px; /* 20px/16px */
   line-height: 1.6;
   color: #fff;
   font-weight: 400;
@@ -131,11 +131,6 @@ a:link {
   text-align: center;
 }
 
-.primary-content {
-	padding-top: 25px;
-  padding-bottom: 95px;
-}
-
 .secondary-content {
 	padding-top: 80px;
 	padding-bottom: 70px;
@@ -143,16 +138,16 @@ a:link {
 
 #contact {
   width: 100%;
-  height: 180px;
+  height: 240px;
   background-color: #2F3C1D;
-  padding: 0;
+  padding: 20px 0 0 0;
 }
 
 #contact p {
   color: #fff;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 0;
 
 }
