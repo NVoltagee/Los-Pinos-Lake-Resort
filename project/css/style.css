@@ -17,7 +17,7 @@ body {
   font: 1em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-p {
+p.caption {
   color:#2F3C1D;
   font-size: 16px;
   margin-bottom: 20px;
@@ -170,7 +170,7 @@ a:link {
 .flexible-container {
     position: relative;
     padding-bottom: 30%;
-    padding-top: 30px;
+    padding-top: 27px;
     height: 0;
     overflow: hidden;
 }
@@ -559,7 +559,7 @@ a:link {
   }
 
   .attractions {
-    padding: 5px 0px;
+    padding: 5px 15px;
   }
 
   .attractions > ol > li > a {
