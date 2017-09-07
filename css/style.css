@@ -550,7 +550,7 @@ a:link {
     height: 415px;
     float: left;
     background-color: #2F3C1D;
-    padding: 125px;
+    padding: 80px;
   }
 
   #contact-map {
@@ -573,6 +573,7 @@ a:link {
     text-align: center;
     text-decoration: none;
     padding: 0;
+    font-size: 22px;
   }
 
   #contact > ul {
