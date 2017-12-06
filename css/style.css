@@ -23,6 +23,12 @@ p.caption {
   margin-bottom: 20px;
 }
 
+.list p {
+  color:#2F3C1D;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
 p#copyrights {
   color:#2F3C1D;
   font-size: 16px;
@@ -162,6 +168,7 @@ a:link {
   text-align: center;
   text-decoration: none;
   padding: 0;
+  font-size: 16px;
 }
 
 #contact > ul {
@@ -250,8 +257,9 @@ a:link {
   h1 {
     font-size: 24px;
   }
+  
   .main-header {
-    padding-top: 15px;
+    padding-top: 80px;
   }
 
   .title {
@@ -288,6 +296,10 @@ a:link {
   p#copyrights {
     color:#2F3C1D;
     font-size: 18px;
+  }
+
+  .list p a {
+    color:#2F3C1D;
   }
 
   h1,
@@ -423,16 +435,26 @@ a:link {
 /* Desktop Size */
 
 @media (min-width: 1024px) { 
-  p {
+  p.caption {
     color:#2F3C1D;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
-  
+
+  .list p {
+    color:#2F3C1D;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .list p a {
+    color:#2F3C1D;
+  }
   p#copyrights {
     color:#2F3C1D;
     font-size: 18px;
   }
+
   h1,
   h2 {
     font-family:'Open Sans', Helvetica, Arial, sans-serif;
@@ -649,6 +671,6 @@ a:link {
    }
 
    .secondary-footer {
-      margin-top: 10px; 
+      margin-top: 5px; 
    }
 }
