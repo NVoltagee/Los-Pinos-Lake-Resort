@@ -181,7 +181,7 @@ a:link {
 
 .flexible-container {
     position: relative;
-    padding-bottom: 30%;
+    padding-bottom: 19.8%;
     padding-top: 31px;
     height: 0;
     overflow: hidden;
@@ -332,8 +332,7 @@ a:link {
 
   img.arrow {
     width: 50px;
-    margin-top: 15px;
-    margin-bottom: 0;
+    margin: 15px 0 15px 0;
    }
 
   img {
@@ -501,7 +500,7 @@ a:link {
 
   footer {
     width: 100%;
-    height: 415px;
+    height: 411px;
   }
 
   section {
@@ -569,7 +568,7 @@ a:link {
 
   #contact {
     width: 50%;
-    height: 415px;
+    height: 100%;
     float: left;
     background-color: #2F3C1D;
     padding: 80px;
