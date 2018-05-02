@@ -604,4 +604,13 @@ a:link {
       margin-top: 5px;
     }
   }
+  @media only screen and (min-width: 2400px) {
+    .flexible-container {
+      position: relative;
+      padding-bottom: 14.9%;
+      padding-top: 31px;
+      height: 0;
+      overflow: hidden;
+    }
+  }
 }
